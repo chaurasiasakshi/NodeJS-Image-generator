@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-image-generator",
+  "version": "1.0.0",
+  "description": "A Node.js project leveraging OpenAI's APIs to generate images using advanced AI algorithms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0",
+    "openai": "^4.28.4"
+  }
+}
